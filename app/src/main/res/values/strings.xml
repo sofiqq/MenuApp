@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Menu App</string>
+    <string name="cart">Корзина: </string>
+    <string name="continue_order">Продолжить заказ</string>
+    <string name="common_cost">Общая стоимость</string>
+    <string name="address">Введите адрес доставки</string>
+    <string name="success">Заказ успешно оформлен</string>
+    <string-array name="dishes">
+        <item>Солянка</item>
+        <item>Чечевичный суп</item>
+        <item>Феттучини с семгой</item>
+        <item>Пельмени</item>
+    </string-array>
+
+    <integer-array name="costs">
+        <item>600</item>
+        <item>700</item>
+        <item>1200</item>
+        <item>800</item>
+    </integer-array>
+
+    <integer-array name="types">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+
+    </integer-array>
+
+    <string-array name="images">
+        <item>ic_pervoe_solyanka</item>
+        <item>ic_pervoe_chechevica</item>
+        <item>ic_vtoroe_fettuchini</item>
+        <item>ic_vtoroe_pelmeni</item>
+    </string-array>
+</resources>
