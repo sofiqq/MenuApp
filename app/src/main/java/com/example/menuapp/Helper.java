@@ -16,10 +16,11 @@ public class Helper {
         int[] costs = context.getResources().getIntArray(R.array.costs);
         String[] images = context.getResources().getStringArray(R.array.images);
         int[] types = context.getResources().getIntArray(R.array.types);
+        String[] structure = context.getResources().getStringArray(R.array.structure);
 
 
         for (int i = 0; i < dishes.length; i++) {
-            MenuItem item = new MenuItem(dishes[i], costs[i], images[i], types[i]);
+            MenuItem item = new MenuItem(dishes[i], costs[i], images[i], types[i], structure[i]);
             Log.e("ASD", "type = " + types[i]);
             menu.add(item);
         }

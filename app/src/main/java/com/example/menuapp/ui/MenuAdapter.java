@@ -57,6 +57,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
         ImageView ivImage;
         TextView tvName;
+        TextView tvStructure;
         TextView tvCost;
         CardView flAdd;
         CardView flRemove;
@@ -69,6 +70,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             super(itemView);
             ivImage = itemView.findViewById(R.id.iv_image);
             tvName = itemView.findViewById(R.id.tv_name);
+            tvStructure = itemView.findViewById(R.id.tv_sctructure);
             tvCost = itemView.findViewById(R.id.tv_cost);
             flAdd = itemView.findViewById(R.id.fl_add);
             flRemove = itemView.findViewById(R.id.fl_remove);
@@ -82,6 +84,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             int id = context.getResources().getIdentifier(item.getImage(), "drawable", context.getPackageName());
             ivImage.setImageResource(id);
             tvName.setText(item.getName());
+            tvStructure.setText(item.getStructure());
             if (getAdapterPosition() == 0 || item.getType() != data.get(getAdapterPosition() - 1).getType()) {
                 tvType.setText(getTypeById(item.getType()));
                 flType.setVisibility(View.VISIBLE);

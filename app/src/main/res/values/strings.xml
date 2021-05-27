@@ -10,6 +10,10 @@
         <item>Чечевичный суп</item>
         <item>Феттучини с семгой</item>
         <item>Пельмени</item>
+        <item>Греческий салат</item>
+        <item>Салат "Цезарь"</item>
+        <item>Холодный чай</item>
+        <item>Лимонад</item>
     </string-array>
 
     <integer-array name="costs">
@@ -17,6 +21,10 @@
         <item>700</item>
         <item>1200</item>
         <item>800</item>
+        <item>500</item>
+        <item>600</item>
+        <item>150</item>
+        <item>200</item>
     </integer-array>
 
     <integer-array name="types">
@@ -24,7 +32,10 @@
         <item>1</item>
         <item>2</item>
         <item>2</item>
-
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
     </integer-array>
 
     <string-array name="images">
@@ -32,5 +43,20 @@
         <item>ic_pervoe_chechevica</item>
         <item>ic_vtoroe_fettuchini</item>
         <item>ic_vtoroe_pelmeni</item>
+        <item>ic_salat_grec</item>
+        <item>ic_salat_cezar</item>
+        <item>ic_napitki_cold_chai</item>
+        <item>ic_napitki_limonad</item>
+    </string-array>
+
+    <string-array name="structure">
+        <item>Iовядина, соленые огурцы, оливки, томатный соус, лук, сливочное масло, лавровый лист, лимон, соль перец.</item>
+        <item>Чечевица красная, говядина, лук, морковь, помидоры, соль, перец.</item>
+        <item>Лосось, паста, сливки, бульон куриный, лук.</item>
+        <item>Свежий говяжий фарш, соль, мука, чёрный перец, укроп, зубчик чеснока</item>
+        <item>Сыр фета, огурцы, помидоры, маслины, сладкий перец, оливковое масло, соль, перец.</item>
+        <item>Куриное филе, оливковое масло, салат ромэн или латук, помидоры черри, фирменный соус</item>
+        <item>Чай черный, сок персика, лед</item>
+        <item>Минеральная вода, лимон, лайм, огурец, мята, сахар, лёд.</item>
     </string-array>
 </resources>

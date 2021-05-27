@@ -10,12 +10,14 @@ public class MenuItem implements Comparable{
     private double cost; //цена блюда
     private String image; //картинка блюда
     private int type; //переменная для хранения типа блюда (первое, второе, салат)
+    private String structure; //состав блюда
 
-    public MenuItem(String name, double cost, String image, int type) {
+    public MenuItem(String name, double cost, String image, int type, String structure) {
         this.name = name;
         this.cost = cost;
         this.image = image;
         this.type = type;
+        this.structure = structure;
     }
 
     public String getName() {
@@ -32,6 +34,10 @@ public class MenuItem implements Comparable{
 
     public String getImage() {
         return image;
+    }
+
+    public String getStructure() {
+        return structure;
     }
 
     @Override
